@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【拼拼】募資網站</title>
+    <!-- myscss -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="webfonts/css/all.css">
+    <!-- googlefont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--load all styles -->
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="container-fluid border-bottom border-5 border-primary">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light py-2">
+                <div class="container-fluid ">
+                    <a class="navbar-brand" href="#"><img class="logo" src="img/logo.jpg" width="111" height="40" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link px-4" aria-current="page" href="#">關於</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="#">挖寶</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link px-4" href="#">我有個大膽的想法</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="justify-content-end d-flex">
+                        <button type="button" class="btn btn-primary rounded-pill text-bold gray-light me-3" data-bs-toggle="modal" data-bs-target="#login">登入</button>
+                        <button type="button" class="btn btn-outline-secondary rounded-pill text-bold border-2 gray-light">註冊</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- 產品介紹 -->
+    <section class="bg-gray-light py-5">
+        <div class="container">
+            <span class="badge bg-secondary px-3">魔法科技</span>
+            <h1 class="h2 text-bold mt-1 mb-3">拍出會動的照片｜LivePhotos 魔法拍立得</h1>
+            <div class="row">
+                <div class="col-lg-7">
+                    <img class="img-fluid rounded" src="img/produt_image.png" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <small class="gray-light">目標 $600,000</small>
+                    <p class="gray-dark fs-3 text-bold">$280,047</p>
+                    <div class="progress mt-0 mb-3">
+                        <div class="progress-bar bg-primary text-secondary" role="progressbar" style="width: 41%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">41%</div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="d-flex flex-column pe-5">
+                            <small>贊助人數</small>
+                            <p class="text-bold fs-3">1374 人</p>
+                        </div>
+                        <div class="d-flex flex-column ps-5">
+                            <small>募資倒數</small>
+                            <p class="text-bold fs-3">27 天</p>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled d-flex">
+                        <li class="pe-3"><img src="img/icon_good01.svg" alt=""></li>
+                        <li class="pe-3"><img src="img/icon_good02.svg" alt=""></li>
+                        <li class="pe-3"><img src="img/icon_good03.svg" alt=""></li>
+                        <li class="pe-3"><img src="img/icon_good04.svg" alt=""></li>
+                    </ul>
+                    <p class="bg-white p-3 gray-light border-start border-primary border-3">專案募資中！<br> 在 2021/06/14 23:59 募資結束前，您都可以贊助我們！</p>
+                    <button type="button" class="btn-size btn btn-primary w-100 mb-2 text-bold rounded-pill gray-light btn-lg">贊助專案</button>
+                    <div>
+
+                        <div class="row">
+                            <div class="col-7">
+                                <button type="button" class="btn-size w-100 text-bold btn btn-outline-secondary border-2 rounded-pill gray-lighter btn-lg"><i class="fas fa-heart"></i>追蹤專案</button>
+                            </div>
+                            <div class="col">
+                                <button type="button" class="btn-size w-100 t-bold btn btn-outline-secondary border-2 rounded-pill gray-lighter btn-lg"><i class="fas fa-share-alt"></i>分享</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- top選單 -->
+    <nav class="border-bottom border-top bg-white border-1 sticky-top">
+        <div class="container p-2">
+            <ul class="nav nav-tabs border-0" role="tablist" aria-orientation="vertical">
+                <li class="nav-item" role="presentation">
+                    <button class="active border-0 nav-link text-bold text-secondary" data-bs-toggle="tab" data-bs-target="#project" type="button" role="tab" aria-controls="project" aria-selected="true">專案介紹</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="border-0 nav-link text-bold text-secondary" data-bs-toggle="tab" data-bs-target="#faq" type="button" role="tab" aria-controls="faq" aria-selected="false">常見問答</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="border-0 nav-link text-bold text-secondary" data-bs-toggle="tab" data-bs-target="#progress" type="button" role="tab" aria-controls="progress" aria-selected="false">目前進度</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link text-bold text-secondary" id="comment-tab" data-bs-toggle="tab" data-bs-target="#comment" type="button" role="tab" aria-controls="comment" aria-selected="false">留言</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 產品詳情 -->
+    <section>
+        <div class="gray-line"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="project" role="tabpanel" aria-labelledby="project-tab">
+                            <img class="img-fluid rounded mt-5 mb-4" src="img/p1.jpg" alt="">
+                            <h3 class="border-start border-primary border-4 h4 text-bold ps-2">施了魔法的照片</h3>
+                            <p class="pb-2">受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。</p>
+                            <img class="img-fluid rounded pb-4" src="img/p2.png" alt="">
+                            <h3 class="border-start border-primary border-4 h4 text-bold ps-2">留下當下的美好</h3>
+                            <p>受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女，外成認心香吸工並知日成展源大超時動為生葉衣致長山對精做英密差家他微熱建取示濟定心一，品定把別銀動，深青輪一物加，生明果。西業白老如天有表非民大條全那遊，李文遊、像香過元學須本致信校態麼資司媽人價在它，地他不我計孩廠然不大指勢生的華常簡岸然，人著母病石金萬得一果。</p>
+                            <!-- 表單填寫區 -->
+                            <div class="d-flex justify-content-center">
+                                <img src="img/icon_heart.svg" alt=" ">
+                            </div>
+                            <div class="position-relative my-4">
+                                <div class="progress bg-warning" style="height: 3px">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                    </div>
+                                </div>
+                                <p class="position-absolute top-0 start-50 translate-middle bg-white text-center px-3 fs-5 fw-bold">
+                                    贊助專案
+                                </p>
+                            </div>
+
+                            <div class="yellow-line"></div>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="project" class="form-label">贊助方案</label>
+                                    <select id="project" class="form-select">
+                                    <option>請選擇一個方案</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">收件人姓名</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="tel" class="form-label">聯絡電話</label>
+                                    <input type="text" class="form-control" id="tel">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">連絡信箱</label>
+                                    <input type="text" class="form-control" id="email">
+                                    <div id="email" class="form-text">
+                                        請輸入正確的郵件格式
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="project" class="form-label">付款方式</label>
+                                    <select id="project" class="form-select">
+                                    <option>信用卡付款</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3 d-flex justify-content-center">
+                                    <button type="submit" class="btn-lg w-25 btn btn-primary rounded-pill text-bold gray-light mt-2 p-0">贊助專案</button>
+                                </div>
+
+
+                            </form>
+                        </div>
+                        <!-- 要修改的 -->
+                        <!-- 常見問答 -->
+                        <div class="tab-pane fade" id="faq" role="tabpanel" aria-labelledby="faq-tab">...
+
+                        </div>
+                        <!-- 目前進度 -->
+                        <div class="tab-pane fade" id="progress" role="tabpanel" aria-labelledby="progress-tab">...</div>
+                        <!-- 留言 -->
+                        <div class="tab-pane fade" id="comment" role="tabpanel" aria-labelledby="comment-tab">...</div>
+                        <!-- 要修改的 -->
+                    </div>
+                </div>
+                <!-- 店家 -->
+                <div class="col-lg-4 mt-5">
+                    <div class="row border rounded border-gray-light">
+                        <div>
+                            <div class="d-flex">
+                                <div class="col-4">
+                                    <img src="img/store_img.jpg" class=" mt-2 mb-2 border border-2 border-warning rounded-pill" alt=" ">
+                                </div>
+                                <div class="col-8">
+                                    <div>
+                                        <p class="gray-dark text-bold mt-4">缺錢事務所</p>
+                                        <p>已發起 1 個專案</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>需要點錢錢做些酷酷的東西，拜託各位乾爹乾媽囉！</p>
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <i class="fas fa-play-circle "></i>
+                                <i class="fab fa-facebook-f "></i>
+                            </div>
+                            <button type="button" class="mb-2 bg-white btn btn-light border border-1 btn-sm border-secondary rounded-pill"><i class="far fa-comment-dots "></i>聯絡我們</button>
+
+                        </div>
+                    </div>
+                    <!-- 方案 -->
+                    <div class="bg-gray-light rounded text-bold border-start border-end border-4 border-primary text-center fs-5 letter-spacing-20 mt-3">
+                        <p>選擇一個方案來支持</p>
+                    </div>
+                    <!-- 1 -->
+                    <div class="card mb-3">
+                        <img src="img/plan_img.jpg" alt=" ">
+                        <div class="card-body ">
+                            <p class="d-flex justify-content-between border-bottom border-1 border-secondary pb-1">
+                                <samll class="gray-light">限時優惠</samll>
+                                <samll class="gray-light">2 days 20:05:20</samll>
+                            </p>
+                            <div class="gray-line"></div>
+                            <h3 class="text-bold">買一送一，只有兩百組別錯過</h3>
+                            <p class="fs-18">NT$ 1600</p>
+                            <span class="badge bg-light text-dark mb-2">已被贊助88次</span>
+                            <span class="badge bg-secondary">限量<span class="text-warning">200個</span></span>
+                            <p>受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
+                            <button class="btn btn-primary rounded-pill text-bold gray-light me-3 w-100">贊助此專案</button>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="card mb-3">
+                        <img src="img/plan_img.jpg" alt=" ">
+                        <div class="card-body ">
+                            <p class="d-flex justify-content-between border-bottom border-1 border-secondary pb-1">
+                                <samll class="gray-light">限時優惠</samll>
+                                <samll class="gray-light">2 days 20:05:20</samll>
+                            </p>
+                            <div class="gray-line"></div>
+                            <h3 class="text-bold">買一送一，只有兩百組別錯過</h3>
+                            <p class="fs-18">NT$ 1600</p>
+                            <span class="badge bg-light text-dark mb-2">已被贊助88次</span>
+                            <span class="badge bg-secondary">限量<span class="text-warning">200個</span></span>
+                            <p>受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
+                            <button class="btn btn-primary rounded-pill text-bold gray-light me-3 w-100">贊助此專案</button>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+
+                    <div class="card mb-3">
+                        <img src="img/plan_img.jpg" alt=" ">
+                        <div class="card-body ">
+                            <p class="d-flex justify-content-between border-bottom border-1 border-secondary pb-1">
+                                <samll class="gray-light">限時優惠</samll>
+                                <samll class="gray-light">2 days 20:05:20</samll>
+                            </p>
+                            <div class="gray-line"></div>
+                            <h3 class="text-bold">買一送一，只有兩百組別錯過</h3>
+                            <p class="fs-18">NT$ 1600</p>
+                            <span class="badge bg-light text-dark mb-2">已被贊助88次</span>
+                            <span class="badge bg-secondary">限量<span class="text-warning">200個</span></span>
+                            <p>受就相法大夠局來畫師我只這然以放灣得的後人心年我物我年，或人有動與次出女親構算帶年行著所間女。</p>
+                            <button class="btn btn-primary rounded-pill text-bold gray-light me-3 w-100">贊助此專案</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container-fuild text-center pt-4 pb-2 text-white bg-gray-dark">
+        <p>Copyright©2021拼拼 All rights reserved.</p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-0 border-top border-primary border-4">
+                    <h5 class="modal-title" id="exampleModalLabel">登入</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body border-top border-1">
+                    <form>
+                        <div class="mb-3">
+                            <label for="Email1" class="form-label">帳號</label>
+                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="Password" class="form-label">密碼</label>
+                            <input type="password" class="form-control" id="Password">
+                            <small class="gray-lighter">忘記密碼?</small>
+                        </div>
+                        <button type="submit" class="w-100 mt-2 mb-5 btn btn-primary rounded-pill d-block text-bold gray-light">登入</button>
+                    </form>
+                    <div class="position-relative mb-4 top-50 start-0">
+                        <div class="progress" style="height: 1px">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                            </div>
+                        </div>
+                        <small class="position-absolute top-0 start-50 translate-middle bg-white text-center">還沒有帳號?<a href="#" class="red">註冊一個帳號</a></small>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8 " crossorigin="anonymous "></script>
+</body>
+
+</html>
